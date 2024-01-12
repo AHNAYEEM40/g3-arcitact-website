@@ -46,14 +46,14 @@ nav > ul{
  .banner-content{
     max-width: 800px;
     align-items: center;
-    margin: 0 auto;
+    margin: 0px auto;
  }
  .banner-title{
     font-size:4rem;
     font-weight: 700;
     color:#131313;
  }
- .banner-descrition{
+ .text-lightgray{
 
     color: #727272;
  }
@@ -101,8 +101,17 @@ nav > ul{
     header{
         padding: 20px;
     }
-    nav{
+    nav , 
+    .teams-container
+    {
         flex-direction: column;
+    }
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     
  }
@@ -111,7 +120,9 @@ nav > ul{
     header{
         padding: 50px;
     }
-    nav{
+    nav,
+    .teams-container 
+    {
         flex-direction: column;
     }
     
@@ -119,5 +130,5 @@ nav > ul{
  /* main section style  */
  main{
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 70px auto;
  }
